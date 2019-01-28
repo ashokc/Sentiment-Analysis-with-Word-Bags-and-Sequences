@@ -31,6 +31,10 @@ Run it with:
 	#!/bin/bash
 	PYTHONHASHSEED=0 ; pipenv run python lstm_movies.py
 
+to obtain the results file
+
+	lstm.json
+
 ###	Support Vector Machines
 
 SVM is implemented via SciKit
@@ -38,11 +42,16 @@ SVM is implemented via SciKit
 	#!/bin/bash
 	PYTHONHASHSEED=0 ; pipenv run python svm_movies.py
 
+to obtain the results file
+
+	svm.json
+
 ###	Plot the confusion matrices
 
-			pipenv run python plotConfusionMatrix.py
+	pipenv run python plotConfusionMatrix.py
 
 A comparison of confusion matrices obtained with LSTM and SVM:
 	
 ![Confusion Matrices](./images/cf.jpg "Confusion Matrices")
 
+The results obtained should be as in the files lstm.json and svm.json loaded here.
