@@ -2,7 +2,7 @@
   
 This is the source code to go along with the blog article
 
-[Sentiment Analysis with Word Bags and Word Sequences](http://xplordat.com/2019/01/28//)
+[Sentiment Analysis with Word Bags and Word Sequences](http://xplordat.com/2019/01/28/sentiment-analysis-with-word-bags-and-word-sequences/)
 
 The blog evaluates the sequence respecting Long Short Term Memory (LSTM) neural nets approach to classifying movie reviews against the traditional Support Vector Machines (SVM) approach using tf-idf vectors
 
